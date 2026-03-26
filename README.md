@@ -15,6 +15,12 @@ Clean raw layoff data in MySQL and prepare it for exploratory data analysis.
 - Handled null and blank values
 - Removed unnecessary rows and helper columns
 
+## Why is it important?
+- duplicated records can distort analysis
+- inconsistent text values break grouping
+- blank and null values reduce data quality
+- date conversion is needed for time-based analysis
+
 ## SQL Techniques Used
 - `ROW_NUMBER()`
 - `CTE`
